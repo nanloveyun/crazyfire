@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>zar</title>
+		<!-- 页面编码 -->
+		<meta charset="UTF-8">
+		<!-- 响应式布局 -->
+		<!--<meta name="viewport" content="width=device-width,initial-scale=1">-->
+		<!-- Bootstrap样式文件 -->
+		<!--<link rel="stylesheet" type="text/css href="static/css/bootstrap.min.css">-->
+		<!-- 自定义样式文件 -->
+		<link rel="stylesheet" type="text/css" href="../static/css/reset.css">
+		<link rel='stylesheet' type="text/css" href="../static/css/share.css">
+		<link rel='stylesheet' type="text/css" href="../static/css/style2.css">
+		
+		<!-- Jquery脚本文件 -->
+		<script src="../static/js/jquery-2.1.4.min.js"></script>
+		 <script  src="../static/js/jquery.touchSlider.js"></script>	
+		 <script src="../static/js/store.js"></script>
+		 <script>
+$(function(){  
+	   //设置菜单状态
+	   if(1>0){
+	     $("#menu_1").attr("class","active");
+	   }
+	   
+		$('.J_chuxing').click(function(){
+			$('.fh-qcode').addClass('n');
+		});
+		$('.fh-qcode').click('.close',function(){
+			$('.fh-qcode').removeClass('n');
+		});
+});  
+</script>
+	</head>
+	<body>
+		<div class="head">
+		     <div class="head_content">
+		
+		           <img src="../static/img/logo.jpg" onclick="location.href=&#39;../home/&#39;">
+
+			       <a id="menu_5" href="http://space.crazyfire.love/">社区</a>
+			       <a id="menu_4" href="../download/download.html">应用下载</a>
+			       <a id="menu_3" href="../store/store.html">配件商城</a>
+			       <a id="menu_2" href="../zar/zar.html" style="padding-top:22px;">轻度<sup>TM</sup>智能车</a>
+			       <a id="menu_1" style="display:none" href="../home/home2.html" class="active">首页</a>
+		      </div>
+		</div>
+		
+		<div class="store">
+			<div class="store_ad">
+                <label class="store_title">配件商城</label>
+				<div class="store_ad_show">
+					<ul>
+						<li index="1"><a target="_blank" href="https://shop148019766.taobao.com/?spm=a230r.7195193.1997079397.2.nuj1il"><img
+							src="http://res.crazyfire.love/user.res/7/6/3b9edf2a-26ea-49cb-b278-0222120a6e16.jpg" /></a></li>
+						
+
+						<li index="2"><a target="_blank" href="https://shop148019766.taobao.com/?spm=a230r.7195193.1997079397.2.nuj1il"><img
+							src="http://res.crazyfire.love/user.res/1/3/ff7539af-0dc7-4068-be4d-17981606d9f4.jpg" /></a></li>
+						
+					</ul>
+				</div>
+				<div class="picMask">
+                <nav>
+                    <a href="javascript:;" class="active"></a>
+                    <a href="javascript:;"></a>
+                </nav>
+            </div>
+			</div>
+			
+     
+			
+			<div class="store_goods">
+			   <div class="store_goods_line1">
+			       <a target="_blank" href="#"><img class="store_goods_line1_img1" src="http://res.crazyfire.love/user.res/4/6/818c2a77-6b73-4080-85c4-5b3fc1cd907d.jpg"/></a>
+								
+				   <a target="_blank" href="#"><img class="store_goods_line1_img2" src="http://res.crazyfire.love/user.res/6/6/c8540c09-bbb4-42be-866d-b8c1341758a6.jpg"/></a>
+			
+			   </div>
+			   
+			     <div class="store_goods_line2">
+			       <a target="_blank" href="#"><img class="store_goods_line2_img3" src="http://res.crazyfire.love/user.res/3/14/654449ab-8228-4bf9-821c-42e72bba5cc2.jpg"/></a>
+
+			   </div>
+			   
+			      <div class="store_goods_line3">
+			       <a target="_blank" href="#"><img class="store_goods_line3_img4" src="http://res.crazyfire.love/system.res/product/shoping4.jpg"/></a>
+								
+				   <a target="_blank" href="#"><img class="store_goods_line3_img5" src="http://res.crazyfire.love/user.res/15/13/5a75ab2d-84e5-4e5e-a5a7-50d2ac4ee892.jpg"/></a>
+			
+			   </div>
+			
+			</div>
+			
+			
+		</div>
+		
+		<div class="footer">
+			<div class="bottom1">
+			 <div class="bottom1_content1">
+			      <a href="../about/about.html">关于我们</a>
+			     <a href="../contact/contact.html">联系我们</a>
+			     <a href="../join/join.html">加入我们</a>
+			     <a href="../service/service.html">售后服务</a>
+			     <a href="#">购买指南</a>
+			     <a href="http://weibo.com/u/5707920997?topnav=1&wvr=6&is_hot=1" >新浪微博</a>
+			     <a class="last J_chuxing" href="javascript:;"  style="border-right: 0px solid #60636b;">微信公众平台</a>
+			  </div>
+			</div>
+			<div class="bottom2">
+			 <div class="bottom2_content2">
+			     <label>Copyright © 2015, Crazyfire tech Co., Ltd. All Rights Reserved.&nbsp;&nbsp;&nbsp;&nbsp;奎泽范 （天津）科技发展有限公司&nbsp;&nbsp;&nbsp;&nbsp;ICP备15006632号</label>
+			 </div>
+		     
+		   </div>
+		  </div>  
+		    <!-- 扫描二维码 -->
+<div class="fh-qcode">
+    <img src="../static/images/fh-qcode.png" height="520" width="346">
+    <a href="javascript:;" class="close"></a>
+</div>
+	</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<!-- 父路径 -->
+		<!-- <base href="/demo/"> -->
+		<!-- 页面编码 -->
+		<meta charset="UTF-8">
+		<!-- 响应式布局 -->
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<!-- Bootstrap样式文件 -->
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+		<!-- 自定义样式文件 -->
+		<link rel="stylesheet" href="styles/site.css">
+		<!-- Jquery脚本文件 -->
+		<script src="scripts/jquery.min.js"></script>
+		<!-- Bootstrap脚本插件文件 -->
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+		<!-- 标签名称 -->
+		<title>component</title>
+	</head>
+	<body class="container">
+		<header class="page-header">
+			<h1 class="text-capitalize">dropdown</h1>
+		</header>
+		
+		<div>
+			
+			<div class="row">
+				<div class="col-sm-8">
+					<div data-interval="5000" id="divGal" class="carousel slide">
+						
+						 <ol class="carousel-indicators">
+						    <li data-target="#divGal" data-slide-to="0" class="active"></li>
+						    <li data-target="#divGal" data-slide-to="1"></li>
+						    <li data-target="#divGal" data-slide-to="2"></li>
+						 </ol>
+						 
+						 <div class="carousel-inner">
+						 	<div class="item active">
+						 		<img src="images/Chrysanthemum.jpg" alt="" class="img-responsive">
+						 	</div>
+							<div class="item">
+								<img src="images/Desert.jpg" alt="" class="img-responsive">
+								<div class="carousel-caption">
+							                 这是沙漠的图片
+							    </div>
+							</div>
+							<div class="item">
+								<img src="images/Hydrangeas.jpg" alt="" class="img-responsive">
+							</div>
+						 </div>
+						 
+						 <a class="left carousel-control" href="#divGal" data-slide="prev">
+						    <span class="glyphicon glyphicon-chevron-left"></span>
+						  </a>
+						 <a class="right carousel-control" href="#divGal" data-slide="next">
+						    <span class="glyphicon glyphicon-chevron-right"></span>
+						  </a>
+		
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		
+		<footer class="navbar-fixed-bottom text-center">
+			&copy; 2015 <span class="glyphicon glyphicon-copyright-mark"></span>
+		</footer>
+	</body>
+</html>

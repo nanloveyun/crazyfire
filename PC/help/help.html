@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>售后服务</title>
+		<!-- 页面编码 -->
+		<meta charset="UTF-8">
+		<!-- 响应式布局 -->
+		<!--<meta name="viewport" content="width=device-width,initial-scale=1">-->
+		<!-- Bootstrap样式文件 -->
+		<!--<link rel="stylesheet" type="text/css href="static/css/bootstrap.min.css">-->
+		<!-- 自定义样式文件 -->
+		<link rel="stylesheet" type="text/css" href="../static/css/reset.css">
+		<link rel='stylesheet' type="text/css" href="../static/css/share.css">
+		<link rel='stylesheet' type="text/css" href="../static/css/style2.css">
+		<link rel='stylesheet' type="text/css" href="../static/css/footerlist.css">
+		
+		<!-- Jquery脚本文件 -->
+		<script src="../static/js/jquery-2.1.4.min.js"></script>
+		 <script  src="../static/js/jquery.touchSlider.js"></script>	
+		 <!--<script src="../static/js/store.js"></script>-->
+	</head>
+	<script type="text/javascript">
+			$(function() {
+				$("#J_banner img").first().addClass("current");
+				//首页图片切换
+				var $banner = $('#J_banner');
+				var bannerIndex = 0;
+				var timer = setInterval(
+						function() {
+
+							var $curBanner = $banner.find('.current');
+							bannerIndex++
+							if (bannerIndex >= $banner.find('img').length) {
+								bannerIndex = 0;
+							}
+							if ($curBanner.length > 0) {
+								$curBanner.removeClass('current');
+								$banner.find('img').eq(bannerIndex).addClass(
+										'current');
+							} else {
+								clearInterval(timer);
+							}
+						}, 5000);
+			});
+		</script>
+	<body>
+		<div class="head">
+		     <div class="head_content">
+		
+		           <img src="../static/img/logo.jpg" onclick="location.href=&#39;../home/&#39;">
+
+			       <a id="menu_5" href="http://space.crazyfire.love/">社区</a>
+			       <a id="menu_4" href="../download/download.html">应用下载</a>
+			       <a id="menu_3" href="../store/store.html">配件商城</a>
+			       <a id="menu_2" href="../zar/zar.html" style="padding-top:22px;">轻度<sup>TM</sup>智能车</a>
+			       <a id="menu_1" style="display:none" href="../home/home2.html" class="active">首页</a>
+		      </div>
+		</div>
+		
+	<!-- banner -->
+		<div class="banner banners" id="J_banner" style="height: 397px;">
+
+			<img src="../static/img/banner1.jpg"> 
+			<img src="../static/img/banner2.jpg">
+
+		</div>
+
+		<!-- 内容区 -->
+		<div class="content about-us w1186">
+			<div class="article serverpic">
+				<span class="deco"></span>
+                <p>网站内容更新中</p>
+
+			</div>
+		</div>
+      
+		
+		<div class="footer">
+			<div class="bottom1">
+			 <div class="bottom1_content1">
+			      <a href="../about/about.html">关于我们</a>
+			     <a href="../contact/contact.html">联系我们</a>
+			     <a href="../join/join.html">加入我们</a>
+			     <a href="../service/service.html">售后服务</a>
+			     <a href="#">购买指南</a>
+			     <a href="http://weibo.com/u/5707920997?topnav=1&wvr=6&is_hot=1" >新浪微博</a>
+			     <a class="last J_chuxing" href="javascript:;"  style="border-right: 0px solid #60636b;">微信公众平台</a>
+			  </div>
+			</div>
+			<div class="bottom2">
+			 <div class="bottom2_content2">
+			     <label>Copyright © 2015, Crazyfire tech Co., Ltd. All Rights Reserved.&nbsp;&nbsp;&nbsp;&nbsp;奎泽范 （天津）科技发展有限公司&nbsp;&nbsp;&nbsp;&nbsp;ICP备15006632号</label>
+			 </div>
+		     
+		   </div>
+		  </div>  
+	</body>
+</html>

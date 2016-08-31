@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>关于我们</title>
+		<!-- 页面编码 -->
+		<meta charset="UTF-8">
+		<!-- 响应式布局 -->
+		<!--<meta name="viewport" content="width=device-width,initial-scale=1">-->
+		<!-- Bootstrap样式文件 -->
+		<!--<link rel="stylesheet" type="text/css href="static/css/bootstrap.min.css">-->
+		<!-- 自定义样式文件 -->
+		<link rel="stylesheet" type="text/css" href="../static/css/reset.css">
+		<link rel='stylesheet' type="text/css" href="../static/css/share.css">
+		<link rel='stylesheet' type="text/css" href="../static/css/style2.css">
+		<link rel='stylesheet' type="text/css" href="../static/css/footerlist.css">
+		
+		<!-- Jquery脚本文件 -->
+		<script src="../static/js/jquery-2.1.4.min.js"></script>
+		 <script  src="../static/js/jquery.touchSlider.js"></script>	
+		 <!--<script src="../static/js/store.js"></script>-->
+		 <script>
+$(function(){  
+	   //设置菜单状态
+	   if(1>0){
+	     $("#menu_1").attr("class","active");
+	   }
+	   
+		$('.J_chuxing').click(function(){
+			$('.fh-qcode').addClass('n');
+		});
+		$('.fh-qcode').click('.close',function(){
+			$('.fh-qcode').removeClass('n');
+		});
+});  
+</script>
+	</head>
+	<script type="text/javascript">
+			$(function() {
+				$("#J_banner img").first().addClass("current");
+				//首页图片切换
+				var $banner = $('#J_banner');
+				var bannerIndex = 0;
+				var timer = setInterval(
+						function() {
+
+							var $curBanner = $banner.find('.current');
+							bannerIndex++
+							if (bannerIndex >= $banner.find('img').length) {
+								bannerIndex = 0;
+							}
+							if ($curBanner.length > 0) {
+								$curBanner.removeClass('current');
+								$banner.find('img').eq(bannerIndex).addClass(
+										'current');
+							} else {
+								clearInterval(timer);
+							}
+						}, 5000);
+			});
+		</script>
+	<body>
+		<div class="head">
+		     <div class="head_content">
+		
+		           <img src="../static/img/logo.jpg" onclick="location.href=&#39;../home/&#39;">
+
+			       <a id="menu_5" href="http://space.crazyfire.love/">社区</a>
+			       <a id="menu_4" href="../download/download.html">应用下载</a>
+			       <a id="menu_3" href="../store/store.html">配件商城</a>
+			       <a id="menu_2" href="../zar/zar.html" style="padding-top:22px;">轻度<sup>TM</sup>智能车</a>
+			       <a id="menu_1" style="display:none" href="../home/home2.html" class="active">首页</a>
+		      </div>
+		</div>
+		
+	<!-- banner -->
+		<div class="banner banners" id="J_banner" style="height: 397px;">
+
+			<img src="../static/img/banner1.jpg"> 
+			<img src="../static/img/banner2.jpg">
+
+		</div>
+
+		<!-- 内容区 -->
+		<div class="content about-us w1186">
+			<h5>
+				<a href="../join/join.html">加入我们</a> | <a href="../contact/contact.html">联系我们</a>
+			</h5>
+			<div class="article serverpic ">
+				<p>
+					<span
+						style="color: rgb(108, 108, 108); font-family: 'Helvetica Neue', 'Helvetica,Arial', 'Microsoft Yahei', 'Hiragino Sans GB', 'Heiti SC', 'WenQuanYi Micro Hei', sans-serif; font-size: 16px; letter-spacing: 1px; line-height: 30px; text-align: justify; widows: 1;">疯火科技—全称奎泽范（天津）科技发展有限公司。公司成立于2014年6月，是一家专业从事智能出行设备以及周边产品研发的高科技公司，拥有优秀的设计和软硬件开发团队，致力于打造行业内首个“终端+内容+平台+软件”于一体的智能出行生态圈。目前已研发完成的Z系列出行系统，专门为如何更轻、更方便的解决人们的短途出行而设计，Z系列具有体积小、重量轻、易携带、高安全等特点，是目前全球最轻的个人出行设备。同时，公司广泛关注环保、设计、物联网等领域，旨在用现代科技的力量改变每个人的生活方式。</span>
+				</p>
+				<p>
+					<span
+						style="color: rgb(108, 108, 108); font-family: 'Helvetica Neue', 'Helvetica,Arial', 'Microsoft Yahei', 'Hiragino Sans GB', 'Heiti SC', 'WenQuanYi Micro Hei', sans-serif; font-size: 16px; letter-spacing: 1px; line-height: 30px; text-align: justify; widows: 1;"><br></span>
+				</p>
+				<p style="text-align: center">
+					<span
+						style="color: rgb(108, 108, 108); font-family: 'Helvetica Neue', 'Helvetica,Arial', 'Microsoft Yahei', 'Hiragino Sans GB', 'Heiti SC', 'WenQuanYi Micro Hei', sans-serif; font-size: 16px; letter-spacing: 1px; line-height: 30px; text-align: justify; widows: 1;"><img
+						width="100%" title="1.jpg" alt="1.jpg"
+						src="../static/img/about1.jpg"></span>
+				</p>
+				<p>
+					<span
+						style="color: rgb(108, 108, 108); font-family: 'Helvetica Neue', 'Helvetica,Arial', 'Microsoft Yahei', 'Hiragino Sans GB', 'Heiti SC', 'WenQuanYi Micro Hei', sans-serif; font-size: 16px; letter-spacing: 1px; line-height: 30px; text-align: justify; widows: 1;"><br></span>
+				</p>
+				<p>
+					<span
+						style="color: rgb(108, 108, 108); font-family: 'Helvetica Neue', 'Helvetica,Arial', 'Microsoft Yahei', 'Hiragino Sans GB', 'Heiti SC', 'WenQuanYi Micro Hei', sans-serif; font-size: 16px; letter-spacing: 1px; line-height: 30px; text-align: justify; widows: 1;"><img
+						width="1190" height="314" title="2.jpg"
+						style="width: 1190px; height: 314px;" alt="2.jpg"
+						src="../static/img/about2.jpg"></span>
+				</p>
+				<p>
+					<span
+						style="font-family: 微软雅黑, 'Microsoft YaHei'; font-size: 20px;"></span>
+				</p>
+				<p>
+					<span
+						style="font-family: 微软雅黑, 'Microsoft YaHei'; font-size: 20px;">团队介绍</span><br>
+				</p>
+				<p>
+					<span style="font-family: 微软雅黑, 'Microsoft YaHei';">张一眀
+						&nbsp; 创始人&amp;CEO</span>
+				</p>
+				<p>
+					<span
+						style="font-family: 微软雅黑, 'Microsoft YaHei'; font-size: 14px;">2003年-2010年在新西兰IT
+						&amp; HR学士学位，Bento科技创始人，中国最早开发网络订餐配合营养师配餐业务的科技公司；新西兰BBS 壹米天空（oneme
+						sky)创始人，浏览量一度垄断Dunedin市；留美中国商业团体翻译；南加州Irvine和SAN JOSE
+						TheOne联合创始人；自行车改装手艺人；疯火科技创始人，致力打造全球最人性化的便携智能硬件公司；</span>
+				</p>
+				<p>
+					<span style="font-family: 微软雅黑, 'Microsoft YaHei';">施龙宇
+						&nbsp; 联合创始人&amp;工业设计师</span>
+				</p>
+				<p>
+					<span
+						style="font-size: 14px; font-family: 微软雅黑, 'Microsoft YaHei';">2011年西安工程大学工业设计专业毕业，乐螺工作室（nollo）联合创始人，麒麟客会员。先后服务于GB、双喜集团，为其储备完整的工业设计咨询方案、工业设计产品方案，在儿童用品领域、代步车领域，已有多款产品成功面世；</span>
+				</p>
+				<p>
+					<span style="font-family: 微软雅黑, 'Microsoft YaHei';">牛恒伟
+						&nbsp;联合创始人&amp;COO</span>
+				</p>
+				<p>
+					<span
+						style="font-family: 微软雅黑, 'Microsoft YaHei'; font-size: 14px;">北京工业大学数字媒体学士，北京林业大学交互设计硕士，原三星鹏泰、SENDA高级交互设计师，参与产品调研、设计、开发，为其提供产品解决方案、设计方案，有多款成功案例。</span>
+				</p>
+				<p>
+					<span style="font-family: 微软雅黑, 'Microsoft YaHei';">罗文彬
+						联合创始人&amp;CTO</span>
+				</p>
+				<p>
+					<span
+						style="font-family: 微软雅黑, 'Microsoft YaHei'; font-size: 14px;">北京林业大学硕士，在校大学生闲置物品交易平台—可觅联合创始人，精通移动端软件的主体架构、研发和管理，并擅长于人机交互设计，尤其是对于软硬件产品结合的场景体验上有独特的见解，曾带领团队开发运营多款软件。</span>
+				</p>
+				<p>
+					<span
+						style="color: rgb(108, 108, 108); font-family: 黑体, SimHei; letter-spacing: 1px; text-align: justify; widows: 1;"></span><br>
+				</p>
+
+			</div>
+		</div>
+
+
+      
+		
+		<div class="footer">
+			<div class="bottom1">
+			 <div class="bottom1_content1">
+			      <a href="../about/about.html">关于我们</a>
+			     <a href="../contact/contact.html">联系我们</a>
+			     <a href="../join/join.html">加入我们</a>
+			     <a href="../service/service.html">售后服务</a>
+			     <a href="#">购买指南</a>
+			     <a href="http://weibo.com/u/5707920997?topnav=1&wvr=6&is_hot=1" >新浪微博</a>
+			     <a class="last J_chuxing" href="javascript:;"  style="border-right: 0px solid #60636b;">微信公众平台</a>
+			  </div>
+			</div>
+			<div class="bottom2">
+			 <div class="bottom2_content2">
+			     <label>Copyright © 2015, Crazyfire tech Co., Ltd. All Rights Reserved.&nbsp;&nbsp;&nbsp;&nbsp;奎泽范 （天津）科技发展有限公司&nbsp;&nbsp;&nbsp;&nbsp;ICP备15006632号</label>
+			 </div>
+		     
+		   </div>
+		  </div>  
+		    <!-- 扫描二维码 -->
+<div class="fh-qcode">
+    <img src="../static/images/fh-qcode.png" height="520" width="346">
+    <a href="javascript:;" class="close"></a>
+</div>
+	</body>
+</html>

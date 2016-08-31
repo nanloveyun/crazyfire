@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+	<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+  <link rel="icon" href="../statics/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../statics/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="../statics/css/main.css" type="text/css" />
+    <link type="text/css" rel="stylesheet" href="../statics/js/swiper.min.css" />
+    <script type="text/javascript" src="../statics/js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="../statics/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="../statics/js/swiper.min.js"></script>
+	<script type="text/javascript" src="../statics/js/home.js"></script>
+	</head>
+	<style>
+.picMask nav{height:10px;left: 50%;margin-left: -20px; top: 86px; position:absolute;z-index: 1000;}
+.picMask nav a{float:left;width:10px;height:10px; border-radius:5px;background:#00DEFD; opacity:0.1;margin-left: 15px;position: relative;}/*border-radius:5px,不要写成border-radius:50%，有些浏览器不支持*/
+.picMask nav a.active{ opacity:1;}
+	</style>
+	<script>
+		$(document).on("touchstart", ".nav_dialog_btn", function (t) {
+	t.preventDefault(), $("#nav").toggleClass("show_nav");
+});
+	</script>
+	
+	<body>
+		<!-- 导航收起时 -->
+<nav class="nav" id="nav">
+    <!-- 导航展开时 -->
+    <!-- <nav class="nav"> -->
+    <div class="nav_dialog_btn u_c"><!-- 点击本按钮给class="nav_dialog_wrap"加多个class="show_nav --></div>
+    <h1 class="logo_wrap">
+        <a class="logo" href="../home/home.html">疯火科技</a>
+    </h1>
+    <!--<a class="iconfont icon_user" href="http://m.crazyfire.hk">EN</a>-->
+    <div class="nav_dialog_wrap">
+        <div class="nav_dialog">
+            <ul class="menu ui_cl">
+                <li class="menu_li"> <a href="../home/home.html">首页</a> </li>
+                <li class="menu_li"> <a href="../zar/zar.html">轻度</a> </li>
+                 <li class="menu_li"> <a href="../store/store.html">配件商城</a> </li>
+                <li class="menu_li"> <a href="../download/download.html">APP</a> </li>
+                <li class="menu_li"><a href="http://space.crazyfire.love">社区</a> </li>
+                 <li class="menu_li"> <a href="../join/join.html">加入我们</a> </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="starvc ui_tac cententBox serverpic">
+    <div class="starvc_centent">
+<p class="p1">
+    <span style="font-size: 20px;"><strong>售后服务说明</strong></span>
+</p>
+<p class="p1">
+    <br/>
+</p>
+<p>
+    <strong>一、<span class="Apple-tab-span">	</span>保修范围</strong>
+</p>
+<p>
+    <span class="s1"><br/></span><span class="s2">1</span>、本公司产品实行国家相关三包规定，对于符合保修条件的产品提供免费维修、换货和退货服务（仅限中国大陆地区购买产品）。包邮产品在质保期内不承担物流费用。<span class="s1"><br/></span><span class="s2">2</span>、三包期限：自销售之日起计算，扣除因修理占用、无零配件待修延误的时间，三包有效期的最后一天为法定休假日的，以休假日的次日为三包有效期最后一天。<span class="s1"><br/></span><span class="s2">3</span>、凭保修卡享受保修服务，换货商品，三包期限自换货之日起算。<span class="s1"><br/></span><span class="s2">4</span>、三包服务说明：
+</p>
+<p class="p3">
+    <span class="s2">&nbsp;&nbsp; </span>自用户收到产品<span class="s2">7</span>日内，因产品质量问题导致产品不可用，经确认用户可自行选择免费维修，更换或退货。我司承担往来物流费用（包邮商品除外）<span class="s1"><br/></span><span class="s2">&nbsp;&nbsp; </span>自用户收到产品<span class="s2">15</span>日内，因产品质量问题导致产品不可用，经确认用户可自行选择免费维修或更换。我司承担往来物流费用（包邮商品除外）<span class="s1"><br/></span><span class="s2">&nbsp;&nbsp; </span>自用户收到产品<span class="s2">1</span>年内，因产品质量问题导致产品不可用，经确认我司将承担全部维修费用。用户承担往来物流费用。
+</p>
+<p class="p3">
+    <span class="s2">5</span>、因用户个人原因，导致拒收，需用户承担往来物流费用。
+</p>
+<p class="p3">
+    <br/>
+</p>
+<p class="p2">
+    <strong>二、保修期内，以下情况不属于免费保修范围之内：</strong>
+</p>
+<p class="p2">
+    <span class="s1"><br/></span><span class="s2">&nbsp;1</span>、累积里程记录行驶超过<span class="s2">3000km</span>的；
+</p>
+<p class="p2">
+    <span class="s2">&nbsp;2</span>、未按照《使用说明书》规范使用造成故障的；<span class="s1"><br/></span><span class="s2">&nbsp;3</span>、自行拆修，改装等使用不当造成故障的；
+</p>
+<p class="p4">
+    <span class="s2">&nbsp;4</span>、使用非我公司生产或注明的配件产品引起故障的；
+</p>
+<p class="p4">
+    <span class="s2">&nbsp;5</span>、因保管不当或意外事故造成故障的；
+</p>
+<p class="p4">
+    <span class="s2">&nbsp;6</span>、使用中属于正常磨损，易损耗（如显示灯，保险丝等）的物件；
+</p>
+<p class="p4">
+    <span class="s2">&nbsp;7</span>、不当使用的（如水中长期浸泡，化学品侵蚀，过载等）造成故障的；
+</p>
+<p class="p4">
+    <span class="s2">&nbsp;8</span>、因火灾，地震等不可抗力因素造成的故障；
+</p>
+<p class="p4">
+    <span class="s2">&nbsp;9</span>、超出保修日起的；
+</p>
+<p class="p4">
+    <br/>
+</p>
+<p class="p1">
+    <strong>三、零部件保修时效说明：</strong>
+</p>
+<p class="p1">
+    电机、电池、控制器等核心部件1年保修；
+</p>
+<p class="p1">
+    <br/>
+</p>
+<p class="p1">
+    <strong>四、有限保修责任：</strong>
+</p>
+<p class="p1">
+    <span class="s1"><br/>1</span><span class="s2">、保修条款只适用与奎泽范（天津）科技发展有限公司所生产的《轻度》品牌产品，</span><span class="s3">对于从未经授权的经销商或其他渠道购买的产品，本公司不予承担保修责任。</span>四、有限保修责任：
+</p>
+<p class="p2">
+    <span class="s4">2</span><span class="s3">、我司对产品保修或配件保修承担义务和责任，仅限于在保修期内免费维修或更换有质量问题的产品或零部件。</span>
+</p>
+<p class="p2">
+    <span class="s4">3</span><span class="s3">、我司不承担（也不授权任何人承担）其他义务和责任，包括但不限于因产品维修周期造成的误工、财产或其他损失。</span>
+</p>
+<p class="p2">
+    <span class="s4"><br/></span><span style="border: 1px solid rgb(0, 0, 0);">以上条款最终解释权归奎泽范（天津）科技发展有限公司所有。</span>
+</p>
+<p>
+    <br/>
+</p>
+  </div>
+
+</div>  
+
+		<div id="footer" class="footer">
+    <div class="list-txt">
+         <a href="../about/about.html">关于我们</a>
+			     <a href="../contact/contact.html">联系我们</a>
+			     <a href="../join/join.html">加入我们</a>
+			     <a href="../service/service.html">售后服务</a>
+             <a href="http://weibo.com/u/5707920997?topnav=1&wvr=6&is_hot=1">新浪微博</a>
+    </div>
+    <div class="list-tel" style="margin-top:20px;">
+        <div class="tel-item tl"><span class="c999">公司电话：400-6072009 </span></div></div>
+
+    <div class="footer-cp c999">
+        Copyright © 2015 .Crazyfire.hk  All Rights Reserved. <br />
+        津ICP备15006632号
+    </div>
+</div>
+<div id="scrollTop" class="scroll-top"></div>
+
+	</body>
+	
+</html>
+
+
